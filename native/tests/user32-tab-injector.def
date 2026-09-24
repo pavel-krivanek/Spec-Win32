@@ -1,0 +1,8 @@
+LIBRARY USER32.dll
+EXPORTS
+    FindWindowA
+    FindWindowExA
+    GetWindow
+    GetClassNameA
+    IsWindowVisible
+    SendMessageW

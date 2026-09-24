@@ -1,0 +1,9 @@
+LIBRARY COMCTL32.dll
+EXPORTS
+    InitCommonControlsEx
+    SetWindowSubclass
+    RemoveWindowSubclass
+    DefSubclassProc
+    ImageList_Create
+    ImageList_Add
+    ImageList_Destroy

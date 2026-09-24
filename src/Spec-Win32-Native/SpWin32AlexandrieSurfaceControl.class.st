@@ -1,0 +1,1 @@
+Class {	#name : 'SpWin32AlexandrieSurfaceControl',	#superclass : 'SpWin32RenderedSurfaceControl',	#category : 'Spec-Win32-Native-Images',	#package : 'Spec-Win32-Native',	#tag : 'Images'}

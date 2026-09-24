@@ -1,0 +1,15 @@
+LIBRARY GDI32.dll
+EXPORTS
+    GetStockObject
+    SelectObject
+    GetTextExtentPoint32W
+    RoundRect
+    MoveToEx
+    LineTo
+    CreateCompatibleDC
+    DeleteDC
+    CreateDIBSection
+    DeleteObject
+    SetTextColor
+    SetBkMode
+    GetTextMetricsW

@@ -1,0 +1,12 @@
+LIBRARY KERNEL32.dll
+EXPORTS
+    CloseHandle
+    CreateEventW
+    CreateThread
+    GetLastError
+    GetModuleHandleW
+    LoadLibraryW
+    MultiByteToWideChar
+    WideCharToMultiByte
+    SetEvent
+    WaitForSingleObject

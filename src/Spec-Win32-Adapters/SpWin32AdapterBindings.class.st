@@ -1,0 +1,1 @@
+Class {	#name : 'SpWin32AdapterBindings',	#superclass : 'SpAdapterBindings',	#category : 'Spec-Win32-Adapters-Support',	#package : 'Spec-Win32-Adapters',	#tag : 'Support'}{ #category : 'initialization' }SpWin32AdapterBindings >> abstractAdapterClass [	^ SpWin32AbstractAdapter]

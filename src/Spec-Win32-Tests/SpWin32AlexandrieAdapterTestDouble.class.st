@@ -1,0 +1,1 @@
+Class {	#name : 'SpWin32AlexandrieAdapterTestDouble',	#superclass : 'SpWin32AlexandrieAdapter',	#category : 'Spec-Win32-Tests-Support',	#package : 'Spec-Win32-Tests',	#tag : 'Support'}{ #category : 'private - drawing' }SpWin32AlexandrieAdapterTestDouble >> alexandrieSurfaceClass [	^ SpWin32AlexandrieTestSurface]

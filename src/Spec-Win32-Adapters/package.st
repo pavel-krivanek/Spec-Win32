@@ -1,0 +1,1 @@
+Package { #name : 'Spec-Win32-Adapters' }

@@ -1,0 +1,9 @@
+LIBRARY USER32.dll
+EXPORTS
+    FindWindowA
+    FindWindowExA
+    GetWindowRect
+    SetForegroundWindow
+    SetCursorPos
+    SendMessageA
+    mouse_event

@@ -1,0 +1,1 @@
+Class {	#name : 'SpWin32MenuGroupAdapter',	#superclass : 'SpWin32AbstractAdapter',	#category : 'Spec-Win32-Adapters-Menu',	#package : 'Spec-Win32-Adapters',	#tag : 'Menu'}{ #category : 'factory' }SpWin32MenuGroupAdapter >> buildWidget [	^ self presenter menuItems collect: [ :each |		(SpWin32MenuBuilder for: self presenter) entryForMenuItemPresenter: each ]]

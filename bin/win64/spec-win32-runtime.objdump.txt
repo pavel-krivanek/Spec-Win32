@@ -1,0 +1,315 @@
+
+/mnt/data/work-v061/Spec-Win32-v061/bin/win64/spec-win32-runtime.dll:	file format coff-x86-64
+Characteristics 0x2022
+	executable
+	large address aware
+	DLL
+
+Time/Date               Thu Sep 24 13:42:29 2026
+Magic                   020b	(PE32+)
+MajorLinkerVersion      14
+MinorLinkerVersion      0
+SizeOfCode              0000000000011a00
+SizeOfInitializedData   0000000000002a00
+SizeOfUninitializedData 0000000000000000
+AddressOfEntryPoint     0000000000000000
+BaseOfCode              0000000000001000
+ImageBase               0000000180000000
+SectionAlignment        00001000
+FileAlignment           00000200
+MajorOSystemVersion     6
+MinorOSystemVersion     0
+MajorImageVersion       0
+MinorImageVersion       0
+MajorSubsystemVersion   6
+MinorSubsystemVersion   0
+Win32Version            00000000
+SizeOfImage             00f3a000
+SizeOfHeaders           00000400
+CheckSum                00000000
+Subsystem               00000002	(Windows GUI)
+DllCharacteristics      00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve      0000000000100000
+SizeOfStackCommit       0000000000001000
+SizeOfHeapReserve       0000000000100000
+SizeOfHeapCommit        0000000000001000
+LoaderFlags             00000000
+NumberOfRvaAndSizes     00000010
+
+The Data Directory
+Entry 0 0000000000013802 00000eb6 Export Directory [.edata (or where ever we found it)]
+Entry 1 00000000000146b8 000000b4 Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 0000000000000000 00000000 Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 0000000000f39000 00000018 Base Relocation Directory [.reloc]
+Entry 6 0000000000000000 00000000 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 0000000000000000 00000000 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 0000000000014af0 00000380 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+
+The Import Tables:
+  lookup 00014770 time 00000000 fwd 00000000 name 00015546 addr 00014af0
+
+    DLL Name: USER32.dll
+    Hint/Ord  Name
+           0  AppendMenuW
+           0  BeginDeferWindowPos
+           0  CreateMenu
+           0  CreatePopupMenu
+           0  CreateWindowExW
+           0  DefWindowProcW
+           0  DeferWindowPos
+           0  DestroyMenu
+           0  DestroyWindow
+           0  DispatchMessageW
+           0  DrawMenuBar
+           0  DrawTextW
+           0  EnableWindow
+           0  EndDeferWindowPos
+           0  FillRect
+           0  GetClientRect
+           0  GetCursor
+           0  GetCursorPos
+           0  GetDC
+           0  GetFocus
+           0  GetForegroundWindow
+           0  GetKeyState
+           0  GetMessageW
+           0  GetMonitorInfoW
+           0  GetParent
+           0  GetScrollInfo
+           0  GetSysColorBrush
+           0  GetWindowLongPtrW
+           0  GetWindowRect
+           0  GetWindowTextLengthW
+           0  GetWindowTextW
+           0  InvalidateRect
+           0  IsDialogMessageW
+           0  IsIconic
+           0  IsWindowEnabled
+           0  IsWindowVisible
+           0  IsZoomed
+           0  KillTimer
+           0  LoadCursorW
+           0  MessageBeep
+           0  MessageBoxW
+           0  MonitorFromWindow
+           0  MoveWindow
+           0  PostMessageW
+           0  PostQuitMessage
+           0  RegisterClassExW
+           0  ReleaseCapture
+           0  ReleaseDC
+           0  ScreenToClient
+           0  SendMessageW
+           0  SetCapture
+           0  SetCursor
+           0  SetFocus
+           0  SetForegroundWindow
+           0  SetMenu
+           0  SetMenuItemBitmaps
+           0  SetScrollInfo
+           0  SetTimer
+           0  SetWindowLongPtrW
+           0  SetWindowPos
+           0  SetWindowTextW
+           0  ShowScrollBar
+           0  ShowWindow
+           0  TrackMouseEvent
+           0  TrackPopupMenu
+           0  TranslateMessage
+           0  UpdateWindow
+
+  lookup 00014990 time 00000000 fwd 00000000 name 00015551 addr 00014d10
+
+    DLL Name: GDI32.dll
+    Hint/Ord  Name
+           0  CreateCompatibleDC
+           0  CreateDIBSection
+           0  DeleteDC
+           0  DeleteObject
+           0  GetStockObject
+           0  GetTextExtentPoint32W
+           0  GetTextMetricsW
+           0  LineTo
+           0  MoveToEx
+           0  RoundRect
+           0  SelectObject
+           0  SetBkMode
+           0  SetTextColor
+
+  lookup 00014a00 time 00000000 fwd 00000000 name 0001555b addr 00014d80
+
+    DLL Name: MSIMG32.dll
+    Hint/Ord  Name
+           0  AlphaBlend
+
+  lookup 00014a10 time 00000000 fwd 00000000 name 00015567 addr 00014d90
+
+    DLL Name: COMCTL32.dll
+    Hint/Ord  Name
+           0  DefSubclassProc
+           0  ImageList_Add
+           0  ImageList_Create
+           0  ImageList_Destroy
+           0  InitCommonControlsEx
+           0  RemoveWindowSubclass
+           0  SetWindowSubclass
+
+  lookup 00014a50 time 00000000 fwd 00000000 name 00015574 addr 00014dd0
+
+    DLL Name: COMDLG32.dll
+    Hint/Ord  Name
+           0  CommDlgExtendedError
+           0  GetOpenFileNameW
+           0  GetSaveFileNameW
+
+  lookup 00014a70 time 00000000 fwd 00000000 name 00015581 addr 00014df0
+
+    DLL Name: SHELL32.dll
+    Hint/Ord  Name
+           0  SHBrowseForFolderW
+           0  SHGetPathFromIDListW
+
+  lookup 00014a88 time 00000000 fwd 00000000 name 0001558d addr 00014e08
+
+    DLL Name: OLE32.dll
+    Hint/Ord  Name
+           0  CoTaskMemFree
+
+  lookup 00014a98 time 00000000 fwd 00000000 name 00015597 addr 00014e18
+
+    DLL Name: KERNEL32.dll
+    Hint/Ord  Name
+           0  CloseHandle
+           0  CreateEventW
+           0  CreateThread
+           0  GetLastError
+           0  GetModuleHandleW
+           0  LoadLibraryW
+           0  MultiByteToWideChar
+           0  SetEvent
+           0  WaitForSingleObject
+           0  WideCharToMultiByte
+
+Export Table:
+ DLL name: spec-win32-runtime.dll
+ Ordinal base: 1
+ Ordinal      RVA  Name
+       1   0x1070  spw_abi_version
+       2   0x4020  spw_beep
+       3   0x3160  spw_code_set_line_decorations
+       4   0x3060  spw_code_set_line_numbers
+       5   0x30c0  spw_code_set_styles
+       6   0x2240  spw_control_create
+       7   0x3a30  spw_control_destroy
+       8   0x3510  spw_control_ensure_visible
+       9   0x2870  spw_control_get_checked
+      10   0x2540  spw_control_get_screen_bounds
+      11   0x2ba0  spw_control_get_selected_index
+      12   0x3220  spw_control_get_selected_indexes
+      13   0x2de0  spw_control_get_selection
+      14   0x27d0  spw_control_get_text
+      15   0x3c80  spw_control_get_tree_selected_token
+      16   0x2c30  spw_control_get_value
+      17   0x2d60  spw_control_has_focus
+      18   0x3a60  spw_control_measure
+      19   0x3540  spw_control_set_bounds_batch
+      20   0x2830  spw_control_set_checked
+      21   0x2390  spw_control_set_context_menu_enabled
+      22   0x28b0  spw_control_set_editable
+      23   0x2cb0  spw_control_set_enabled
+      24   0x2d30  spw_control_set_focus
+      25   0x32d0  spw_control_set_header
+      26   0x2a30  spw_control_set_image_auto_scale
+      27   0x2990  spw_control_set_image_bgra
+      28   0x2c70  spw_control_set_indeterminate
+      29   0x2a90  spw_control_set_items
+      30   0x28f0  spw_control_set_max_length
+      31   0x3290  spw_control_set_multiple_selection
+      32   0x2920  spw_control_set_password
+      33   0x2960  spw_control_set_placeholder
+      34   0x2b60  spw_control_set_selected_index
+      35   0x31d0  spw_control_set_selected_indexes
+      36   0x2da0  spw_control_set_selection
+      37   0x3410  spw_control_set_table_cells
+      38   0x3310  spw_control_set_table_columns
+      39   0x2300  spw_control_set_text
+      40   0x2330  spw_control_set_tooltip
+      41   0x3b10  spw_control_set_tree_nodes
+      42   0x3c30  spw_control_set_tree_selected_token
+      43   0x2be0  spw_control_set_value
+      44   0x3590  spw_control_set_z_order
+      45   0x2cf0  spw_control_show
+      46   0x23f0  spw_control_show_context_menu
+      47   0x24a0  spw_control_show_popup_menu
+      48   0x3d90  spw_control_tree_ensure_visible
+      49   0x3d30  spw_control_tree_is_expanded
+      50   0x3cd0  spw_control_tree_set_expanded
+      51   0x40b0  spw_cw_use_default
+      52   0x19e0  spw_event_pop
+      53   0x3e60  spw_file_dialog
+      54   0x2780  spw_get_cursor_position
+      55   0x2ae0  spw_list_set_rows
+      56   0x3960  spw_notebook_get_content_rect
+      57   0x2650  spw_object_get_monitor_work_area
+      58   0x3810  spw_paned_configure
+      59   0x3910  spw_paned_get_position
+      60   0x1080  spw_pointer_bits
+      61   0x1bd0  spw_popup_window_create
+      62   0x3ae0  spw_runtime_barrier
+      63   0x1930  spw_runtime_dropped_event_count
+      64   0x1830  spw_runtime_is_running
+      65   0x1850  spw_runtime_object_count
+      66   0x1090  spw_runtime_start
+      67   0x1840  spw_runtime_start_error
+      68   0x16b0  spw_runtime_stop
+      69   0x1940  spw_runtime_wake
+      70   0x35f0  spw_scroll_view_configure
+      71   0x3690  spw_scroll_view_configure_policies
+      72   0x3730  spw_scroll_view_get_page_extent
+      73   0x37b0  spw_scroll_view_set_position
+      74   0x4060  spw_show_command_hide
+      75   0x4090  spw_show_command_maximize
+      76   0x4080  spw_show_command_minimize
+      77   0x40a0  spw_show_command_restore
+      78   0x4070  spw_show_command_show
+      79   0x3de0  spw_show_message
+      80   0x3480  spw_table_set_cells_with_images
+      81   0x2f30  spw_text_command
+      82   0x2e40  spw_text_configure
+      83   0x2fd0  spw_text_first_visible_line
+      84   0x2ed0  spw_text_replace_selection
+      85   0x2f80  spw_text_scroll_to_line
+      86   0x3ba0  spw_tree_set_nodes_with_images
+      87   0x1980  spw_wait_for_activity
+      88   0x1eb0  spw_window_activate
+      89   0x20b0  spw_window_center
+      90   0x20f0  spw_window_center_relative
+      91   0x1a40  spw_window_create
+      92   0x1e40  spw_window_destroy
+      93   0x1ef0  spw_window_get_bounds
+      94   0x1de0  spw_window_get_client_size
+      95   0x21f0  spw_window_is_enabled
+      96   0x2060  spw_window_is_foreground
+      97   0x2010  spw_window_is_maximized
+      98   0x1fc0  spw_window_is_minimized
+      99   0x1e70  spw_window_is_visible
+     100   0x1d70  spw_window_set_bounds
+     101   0x2190  spw_window_set_enabled
+     102   0x1cf0  spw_window_set_menu
+     103   0x2140  spw_window_set_owner
+     104   0x1cc0  spw_window_set_title
+     105   0x3f70  spw_window_set_wait_cursor
+     106   0x1c90  spw_window_show
+     107   0x3fd0  spw_window_wait_cursor_active
